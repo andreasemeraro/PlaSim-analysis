@@ -52,11 +52,11 @@ The first one is the files that you have to open with jupyter. The second one is
 - file_graph=folderPath+"/output/analisi/grafici/"
 These files work for both the two types of resolutions (T21/T42)
 
-**NOTE 5: You have to create a `grafici` directory in the [analisi](NSM2_100_70_30_ML_SI_T21/output/analisi) folder of a PlaSim simulation. In this directory the plots will be saved!**
+**NOTE 5: You have to create a `grafici` directory in the [analisi](NSM2_100_70_30_ML_SI_T21/output/analisi) folder of a PlaSim simulation. The plots will be saved in this directory!**
 
 ### File comparison ###
-This section need to perform some plots that compare two or more simulations.
-In this directory you will find a folder called T21 tht refers to the resolution of the fle anlyzed in this path. You can aso create another folder for the T42 resolution. In the former directory there is a file named [module_comparison.ipynb](file_comparison/T21/module_comparison.ipynb) which contains all the functions used in the [comparison.ipybn](file_comparison/T21/NSM2_WGAO2/comparison.ipynb) file content in the NSM2_WGAO2 directory. In this directory you have to create a `grafici` directory as previously done in the file_analysis. In the [comparison.ipybn](file_comparison/T21/NSM2_WGAO2/comparison.ipynb) you have to set:
+The files contained in this section are expoitedto perform some plots in order to compare two or more simulations.
+In this directory you will find a folder called T21 that refers to the resolution of the fle anlyzed in this path. You can also create another folder for the T42 resolution. In the former directory there is a file named [module_comparison.ipynb](file_comparison/T21/module_comparison.ipynb) which contains all the functions used in the [comparison.ipybn](file_comparison/T21/NSM2_WGAO2/comparison.ipynb) file content in the NSM2_WGAO2 directory. In this directory you have to create a `grafici` directory as previously done in the file_analysis. In the [comparison.ipybn](file_comparison/T21/NSM2_WGAO2/comparison.ipynb) you have to set:
 - legend_array=["NSM2","WGAO2"]
 - nm=["NSM2_100_70_30_ML_SI_T21","WGAO2_100_70_30_ML_SI_T21"]
 The number of simulations can be more than two!
