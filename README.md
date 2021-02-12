@@ -26,7 +26,7 @@ In the repository you can find two direcotries called:
 - NSM2_100_70_30_ML_SI_T21;
 - WGAO2_100_70_30_ML_SI_T21.
 
-The name structure is composed as follows: simulation_name (the same name that you have to put in the [most_plasim_run](NSM2_100_70_30_ML_SI_T21/most_plasim_run) and that appear in the [output files](NSM2_100_70_30_ML_SI_T21/output/))+years of simulation+start time for the average+years of average (this input have to correspond to the ones in the [cdo_start_2.0.sh](CDO_pre_analysis/cdo_start_2.0.sh)).
+The name structure is composed as follows: simulation_name (the same name that you have to put in the [most_plasim_run](NSM2_100_70_30_ML_SI_T21/most_plasim_run) and that appear in the [output files](NSM2_100_70_30_ML_SI_T21/output/))+years of simulation+start time for the average+years of average (this input have to correspond to the ones in the [cdo_start_2.0.sh](CDO_pre_analysis/cdo_start_2.0.sh))+simulation_feature (ex: Mixed Layer, Sea Ice)+resolution (T21 or T42).
 
 ### CDO_pre_analysis ###
 Before to start you have to run the [cdo_start_2.0.sh](CDO_pre_analysis/cdo_start_2.0.sh) in order to generate the anlized files that will be used by the python and jupyter script. In this file you have to set the followign parameter:
@@ -39,4 +39,14 @@ Before to start you have to run the [cdo_start_2.0.sh](CDO_pre_analysis/cdo_star
 **N.B: the day start and day stop are not used in this file actually**
 Then you may run the [cdo_start_2.0.sh](CDO_pre_analysis/cdo_start_2.0.sh) from bash `./cdo_start_2.0.sh`
 
-### 
+###  File_ analysis ###
+In this directory there are two files:
+1. study_file_mod.ipynb
+2. module_study_file.ipynb
+The first one is the files that you have to open with jupyter. The second one is just the module used from the first one and where the classes and functions are stored.In the first one you have to set:
+-folderPath="/home/andry/Andrea/repo/PlaSim-analysis/NSM2_100_70_30_ML_SI_T21"
+-file_analysis=folderPath+"/output/analisi/"
+-file_graph=folderPath+"/output/analisi/grafici/"
+These file works for both the two types of resolutions (T21/T42)
+
+### File comparison ###
