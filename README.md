@@ -24,6 +24,6 @@ In the repository you can find two direcotries called:
 - NSM2_100_70_30_ML_SI_T21;
 - WGAO2_100_70_30_ML_SI_T21.
 
-The name structure is composed as follows: simulation_name (the same name that you have to put in the most_plasim_run and that appear in the [output files](NSM2_100_70_30_ML_SI_T21/output/))+years of simulation+ start time for the average+years of average (this input have to correspond to the ones in the [cdo_start_2.0.sh file](CDO_pre_analysis/cdo_start_2.0.sh)
+The name structure is composed as follows: simulation_name (the same name that you have to put in the most_plasim_run and that appear in the [output files](NSM2_100_70_30_ML_SI_T21/output/))+years of simulation+start time for the average+years of average (this input have to correspond to the ones in the [cdo_start_2.0.sh](CDO_pre_analysis/cdo_start_2.0.sh)).
 
 
