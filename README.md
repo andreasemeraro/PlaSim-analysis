@@ -63,6 +63,6 @@ The number of simulations can be more than two!
 This part provides a ython apllication to have a quick look to some simulation plots. Simply run `./single_file_anaysis.py`to sea the GUI of the app. 
 
 ### Data Mask Modification ###
-Thsi last section provide a script used to modify some input masks of PlaSim. Simply open the [modifications.ipybn]() file and set:
+Thsi last section provide a script used to modify some input masks of PlaSim. Simply open the [modifications.ipybn](data_mask_modification/modifications.ipybn) file and set:
 - path="/home/andry/Andrea/repo/PlaSim-analysis/"
 - name_simulation="NSM2_100_70_30_ML_SI_T21/"
