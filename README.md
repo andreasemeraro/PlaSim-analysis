@@ -23,7 +23,7 @@ The basemap package is deprecated and a complete transition to cartopy is needed
 In the repository you can find two direcotries called:
 - NSM2_100_70_30_ML_SI_T21
 - WGAO2_100_70_30_ML_SI_T21
-The name structure is composed as follows: simulation_name (the same name that you have to put in the most_plasim_run and that appear in the uotput files in [output](github/NSM2_100_70_30_ML_SI_T21/output/)
+The name structure is composed as follows: simulation_name (the same name that you have to put in the most_plasim_run and that appear in the uotput files in [output](NSM2_100_70_30_ML_SI_T21/output/)
 
 
 
