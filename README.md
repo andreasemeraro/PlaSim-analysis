@@ -28,7 +28,7 @@ In the repository you can find two direcotries called:
 
 The name structure is composed as follows: simulation_name (the same name that you have to put in the [most_plasim_run](NSM2_100_70_30_ML_SI_T21/most_plasim_run) and that appear in the [output files](NSM2_100_70_30_ML_SI_T21/output/))+years of simulation+start time for the average+years of average (this input have to correspond to the ones in the [cdo_start_2.0.sh](CDO_pre_analysis/cdo_start_2.0.sh))+simulation_feature (ex: Mixed Layer, Sea Ice)+resolution (T21 or T42).
 
-### CDO_pre_analysis ###
+### CDO pre-analysis ###
 Before to start you have to run the [cdo_start_2.0.sh](CDO_pre_analysis/cdo_start_2.0.sh) in order to generate the anlized files that will be used by the python and jupyter script. In this file you have to set the followign parameter:
 -name_dir=path to the PlaSim simulation
 -name_sim="simulation_name"
@@ -39,7 +39,7 @@ Before to start you have to run the [cdo_start_2.0.sh](CDO_pre_analysis/cdo_star
 **N.B: the day start and day stop are not used in this file actually**
 Then you may run the [cdo_start_2.0.sh](CDO_pre_analysis/cdo_start_2.0.sh) from bash `./cdo_start_2.0.sh`
 
-###  file_ analysis ###
+###  File analysis ###
 In this directory there are two files:
 1. study_file_mod.ipynb;
 2. module_study_file.ipynb.
@@ -52,8 +52,17 @@ These file works for both the two types of resolutions (T21/T42)
 
 **N.B: You have to create a `grafici` directory in the [analisi](NSM2_100_70_30_ML_SI_T21/output/analisi) one of the PlaSim simulation. In this directory the plots will be saved!**
 
-### file_comparison ###
+### File comparison ###
 This section need to perform some plots that compare two or more simulations.
 In this directory you will find a folder called T21 tht refers to the resolution of the fle anlyzed in this path. You can aso create another folder for the T42 resolution. In the former directory there is a file named [module_comparison.ipynb](file_comparison/module_comparison.ipynb) which contains all the functions used in the [comparison.ipybn](file_comparison/NSM2_WGAO2/comparison.ipybn) file content in the NSM2_WGAO2 directory. In this directory you have to create a `grafici` directory as previously done in the file_analysis. In the [comparison.ipybn](file_comparison/NSM2_WGAO2/comparison.ipybn) you have to set:
 - legend_array=["NSM2","WGAO2"]
 - nm=["NSM2_100_70_30_ML_SI_T21","WGAO2_100_70_30_ML_SI_T21"]
+The number of simulations can be more than two!
+
+### Application ###
+This part provides a ython apllication to have a quick look to some simulation plots. Simply run `./single_file_anaysis.py`to sea the GUI of the app. 
+
+### Data Mask Modification ###
+Thsi last section provide a script used to modify some input masks of PlaSim. Simply open the [modifications.ipybn]() file and set:
+- path="/home/andry/Andrea/repo/PlaSim-analysis/"
+- name_simulation="NSM2_100_70_30_ML_SI_T21/"
