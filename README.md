@@ -16,7 +16,7 @@ These codes were developed during my Thesis work where I perfmored a good number
     `conda install -c conda-forge cartopy` or see [here](https://anaconda.org/conda-forge/cartopy).
     
 The basemap package is deprecated and a complete transition to cartopy is needed in the future. However, basemap holds some features still not present in cartopy. So for now I've decided to not change to cartopy. Unfortunately, for the former reason you have to use a python version=2.6. I suggest to create a new conda environment with this python version: `conda create -n envname python=2.6`, then activate the environment `conda activate envname`.
-**N.B. In ubuntu I found very useful to run directly `jupyter notebook` from the desired path directory**
+**N.B. In ubuntu I found very useful to run directly `jupyter notebook` from the desired path**
 
 
 
