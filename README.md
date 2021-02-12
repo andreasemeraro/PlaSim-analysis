@@ -45,11 +45,11 @@ In this directory there are two files:
 2. module_study_file.ipynb.
 
 The first one is the files that you have to open with jupyter. The second one is just the module used from the first one and where the classes and functions are stored.In the first one you have to set:
--folderPath="/home/andry/Andrea/repo/PlaSim-analysis/NSM2_100_70_30_ML_SI_T21"
--file_analysis=folderPath+"/output/analisi/"
--file_graph=folderPath+"/output/analisi/grafici/"
+- folderPath="/home/andry/Andrea/repo/PlaSim-analysis/NSM2_100_70_30_ML_SI_T21"
+- file_analysis=folderPath+"/output/analisi/"
+- file_graph=folderPath+"/output/analisi/grafici/"
 These file works for both the two types of resolutions (T21/T42)
 
-**N.B: You have to create a `grafici` directory in the [analisi](NSM2_100_70_30_ML_SI_T21/output/analisi) directory of the PlaSim simulatiom. In thsi directory the plots will be saved!**
+**N.B: You have to create a `grafici` directory in the [analisi](NSM2_100_70_30_ML_SI_T21/output/analisi) one of the PlaSim simulation. In this directory the plots will be saved!**
 
 ### file_comparison ###
