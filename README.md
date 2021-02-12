@@ -3,10 +3,10 @@ These codes were developed during my Thesis work where I perfmored a good number
 
 ## PRE-REQUISITES ##
 In this code a I've used the Anaconda distribution with Jupyter Notebook (expet for the file in CDO and application) and the script requires the following packages:
--netcdf
--cdo
--basemap
--cartopy
+- netcdf
+- cdo
+- basemap
+- cartopy
 
 
 
