@@ -18,27 +18,27 @@ These codes were developed during my Thesis work where I performed some simulati
     - cartopy:
     `conda install -c conda-forge cartopy` or see [here](https://anaconda.org/conda-forge/cartopy).
     
-The basemap package is deprecated and a complete transition to cartopy is needed in the future. However, basemap holds some features still not present in cartopy. So for now I've decided to not change to cartopy. Unfortunately, for the former reason you have to use a python version=2.6. I suggest to create a new conda environment with this python version: `conda create -n envname python=2.6`, then activate the environment `conda activate envname`.
+The basemap package is deprecated and in future a complete transition to cartopy is needed. However, basemap holds some features still not present in cartopy. So I've decided to not update to cartopy. Unfortunately, because of this choice, you have to use a python version=2.6. I suggest to create a new conda environment with this python version: `conda create -n envname python=2.6`, then activate the environment `conda activate envname`.
 
 **NOTE 3: In ubuntu I found very useful to run directly `jupyter notebook` from the desired path**
 
 ## DIRECTORIES ##
 ### PlaSim simulations ##
-In the repository you can find two direcotries called:
+In the repository you can find two directories called:
 - NSM2_100_70_30_ML_SI_T21;
 - WGAO2_100_70_30_ML_SI_T21.
 
 The name structure is composed as follows: simulation_name (the same name that you have to put in the [most_plasim_run](NSM2_100_70_30_ML_SI_T21/most_plasim_run) and that appear in the [output files](NSM2_100_70_30_ML_SI_T21/output/))+years of simulation+start time for the average+years of average (this input have to correspond to the ones in the [cdo_start_2.0.sh](CDO_pre_analysis/cdo_start_2.0.sh))+simulation_feature (ex: Mixed Layer, Sea Ice)+resolution (T21 or T42).
 
 ### CDO pre-analysis ###
-Before to start you have to run the [cdo_start_2.0.sh](CDO_pre_analysis/cdo_start_2.0.sh) in order to generate the anlized files that will be used by the python and jupyter script. In this file you have to set the followign parameter:
+Before to start you have to run the [cdo_start_2.0.sh](CDO_pre_analysis/cdo_start_2.0.sh) in order to generate the analized files that will be used by the python and jupyter scripts. In this file you have to set the following parameters:
 -name_dir=path to the PlaSim simulation
 -name_sim="simulation_name"
 -year=years of simulation
 -step=years of average
--start=start time for the average
+-start=start time for average
 
-**NOTE 4: the day start and day stop are not used in this file actually**
+**NOTE 4: the day start and day stop are currently not used in this file **
 Then you may run the [cdo_start_2.0.sh](CDO_pre_analysis/cdo_start_2.0.sh) from bash `./cdo_start_2.0.sh`
 
 ###  File analysis ###
@@ -50,9 +50,9 @@ The first one is the files that you have to open with jupyter. The second one is
 - folderPath="/home/andry/Andrea/repo/PlaSim-analysis/NSM2_100_70_30_ML_SI_T21"
 - file_analysis=folderPath+"/output/analisi/"
 - file_graph=folderPath+"/output/analisi/grafici/"
-These file works for both the two types of resolutions (T21/T42)
+These files work for both the two types of resolutions (T21/T42)
 
-**NOTE 5: You have to create a `grafici` directory in the [analisi](NSM2_100_70_30_ML_SI_T21/output/analisi) one of the PlaSim simulation. In this directory the plots will be saved!**
+**NOTE 5: You have to create a `grafici` directory in the [analisi](NSM2_100_70_30_ML_SI_T21/output/analisi) folder of a PlaSim simulation. In this directory the plots will be saved!**
 
 ### File comparison ###
 This section need to perform some plots that compare two or more simulations.
