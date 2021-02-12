@@ -1,7 +1,7 @@
 ## INTRODUCTION ##
 These codes were developed during my Thesis work where I performed some simulations with the Planet Simuator Model (PlaSim). The Climate Model is open source and you can find the original version [here](https://github.com/HartmutBorth/PlaSim). However, to develop this project I started from another version [here](https://github.com/jhardenberg/plasim). Even if the code in this repository was used for the PlaSim model I believe that with slight modifications it can be applied to other models that have their output data in a Netcdf format. In the following part I will explain how to use the code. This is far for perfection and could be some unclear things and error. Feel free to open issues in that case.
 
-**NOTE 1: The following instruction are thought for ubuntu**
+**NOTE 1: The following instructions are thought for ubuntu**
 
 **NOTE 2: Some linked files can be too heavy to open on github, you have to donwnload them and open with jupyter**
 
