@@ -54,7 +54,7 @@ These file works for both the two types of resolutions (T21/T42)
 
 ### File comparison ###
 This section need to perform some plots that compare two or more simulations.
-In this directory you will find a folder called T21 tht refers to the resolution of the fle anlyzed in this path. You can aso create another folder for the T42 resolution. In the former directory there is a file named [module_comparison.ipynb](file_comparison/T21/module_comparison.ipynb) which contains all the functions used in the [comparison.ipybn](file_comparison/T21/NSM2_WGAO2/comparison.ipybn) file content in the NSM2_WGAO2 directory. In this directory you have to create a `grafici` directory as previously done in the file_analysis. In the [comparison.ipybn](file_comparison/T21/NSM2_WGAO2/comparison.ipybn) you have to set:
+In this directory you will find a folder called T21 tht refers to the resolution of the fle anlyzed in this path. You can aso create another folder for the T42 resolution. In the former directory there is a file named [module_comparison.ipynb](file_comparison/T21/module_comparison.ipynb) which contains all the functions used in the [comparison.ipybn](file_comparison/T21/NSM2_WGAO2/comparison.ipynb) file content in the NSM2_WGAO2 directory. In this directory you have to create a `grafici` directory as previously done in the file_analysis. In the [comparison.ipybn](file_comparison/T21/NSM2_WGAO2/comparison.ipynb) you have to set:
 - legend_array=["NSM2","WGAO2"]
 - nm=["NSM2_100_70_30_ML_SI_T21","WGAO2_100_70_30_ML_SI_T21"]
 The number of simulations can be more than two!
@@ -63,6 +63,6 @@ The number of simulations can be more than two!
 This part provides a ython apllication to have a quick look to some simulation plots. Simply run `./single_file_anaysis.py`to sea the GUI of the app. 
 
 ### Data Mask Modification ###
-Thsi last section provide a script used to modify some input masks of PlaSim. Simply open the [modifications.ipybn](data_mask_modification/modifications.ipybn) file and set:
+Thsi last section provide a script used to modify some input masks of PlaSim. Simply open the [modifications.ipybn](data_mask_modification/modifications.ipynb) file and set:
 - path="/home/andry/Andrea/repo/PlaSim-analysis/"
 - name_simulation="NSM2_100_70_30_ML_SI_T21/"
