@@ -53,3 +53,12 @@ These file works for both the two types of resolutions (T21/T42)
 **N.B: You have to create a `grafici` directory in the [analisi](NSM2_100_70_30_ML_SI_T21/output/analisi) one of the PlaSim simulation. In this directory the plots will be saved!**
 
 ### file_comparison ###
+This section need to perform some plots that compare two or more simulations.
+In this directory you will find a folder called T21 tht refers to the resolution of the fle anlyzed in this path. You can aso create another folder for the T42 resolution. In the former directory there is a file named [module_comparison.ipynb](file_comparison/module_comparison.ipynb) which contains all the functions used in the [comparison.ipybn](file_comparison/NSM2_WGAO2/comparison.ipybn) file content in the NSM2_WGAO2 directory. In this directory you have to create a `grafici` directory as previously done in the file_analysis. 
+-legend_array=["NSM2","WGAO2"]
+-name_files=["NSM2","WGAO2"]
+-path_array=["../../../NSM2_100_70_30_ML_SI_T21/output/analisi/",\
+            "../../../WGAO2_100_70_30_ML_SI_T21/output/analisi/"]
+-starts=[70,70]
+-ends=[100,100]
+-step=[30,30]
