@@ -50,4 +50,6 @@ The first one is the files that you have to open with jupyter. The second one is
 -file_graph=folderPath+"/output/analisi/grafici/"
 These file works for both the two types of resolutions (T21/T42)
 
+**N.B: You have to create a `grafici` directory in the [analisi](NSM2_100_70_30_ML_SI_T21/output/analisi) directory of the PlaSim simulatiom. In thsi directory the plots will be saved!**
+
 ### file_comparison ###
