@@ -47,7 +47,7 @@ In this directory there are two files:
 1. study_file_mod.ipynb;
 2. module_study_file.ipynb.
 
-The first one is the files that you have to open with jupyter. The second one is just the module used from the first one and where the classes and functions are stored.In the first one you have to set:
+The first one is the files that you have to open with jupyter. The second one is just the module used from the first one and where the classes and functions are stored. In the first one you have to set:
 - folderPath="/home/andry/Andrea/repo/PlaSim-analysis/NSM2_100_70_30_ML_SI_T21"
 - file_analysis=folderPath+"/output/analisi/"
 - file_graph=folderPath+"/output/analisi/grafici/"
