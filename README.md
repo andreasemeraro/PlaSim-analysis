@@ -38,7 +38,7 @@ Before to start you have to run the [cdo_start_2.0.sh](CDO_pre_analysis/cdo_star
 - step=years of average
 - start=start time for average
 
-**NOTE 4: the day start and day stop are currently not used in this file **
+**NOTE 4: the day start and day stop are currently not used in this file**
 Then you may run the [cdo_start_2.0.sh](CDO_pre_analysis/cdo_start_2.0.sh) from bash `./cdo_start_2.0.sh`
 
 ###  File analysis ###
