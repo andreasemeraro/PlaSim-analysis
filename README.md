@@ -21,8 +21,9 @@ The basemap package is deprecated and a complete transition to cartopy is needed
 ## Directories ##
 ### PlaSim simulations ##
 In the repository you can find two direcotries called:
-- NSM2_100_70_30_ML_SI_T21
-- WGAO2_100_70_30_ML_SI_T21
+- NSM2_100_70_30_ML_SI_T21;
+- WGAO2_100_70_30_ML_SI_T21.
+
 The name structure is composed as follows: simulation_name (the same name that you have to put in the most_plasim_run and that appear in the [output files](NSM2_100_70_30_ML_SI_T21/output/)
 
 
