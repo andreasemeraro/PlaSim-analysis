@@ -32,11 +32,11 @@ The name structure is composed as follows: simulation_name (the same name that y
 
 ### CDO pre-analysis ###
 Before to start you have to run the [cdo_start_2.0.sh](CDO_pre_analysis/cdo_start_2.0.sh) in order to generate the analized files that will be used by the python and jupyter scripts. In this file you have to set the following parameters:
--name_dir=path to the PlaSim simulation
--name_sim="simulation_name"
--year=years of simulation
--step=years of average
--start=start time for average
+- name_dir=path to the PlaSim simulation
+- name_sim="simulation_name"
+- year=years of simulation
+- step=years of average
+- start=start time for average
 
 **NOTE 4: the day start and day stop are currently not used in this file **
 Then you may run the [cdo_start_2.0.sh](CDO_pre_analysis/cdo_start_2.0.sh) from bash `./cdo_start_2.0.sh`
