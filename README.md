@@ -1,7 +1,9 @@
 ## INTRODUCTION ##
 These codes were developed during my Thesis work where I perfmored a good number of simulation with the Planet Simuator Model (PlaSim). This Climate Model is open source and you can find the original version [here](https://github.com/HartmutBorth/PlaSim). However, during this project I started from another version [here](https://github.com/jhardenberg/plasim). Even if the code in this repository was used for the former model I believe that with some tips can be be performed for other model that save their data in Netcdf format. In the following part I will explain how to use the code. This is far for perfection and could be some unclear things and error. Feel free to open issues in that case.
 
-**N.B. The following instruction are thought for ubuntu**
+**NOTE 1: The following instruction are thought for ubuntu**
+
+**NOTE 2: Some linked files can be too heavy to open on github, you have to donwnload them and open with jupyter**
 
 ## PRE-REQUISITES ##
 1. Download cdo `sudo apt install cdo`;
@@ -18,7 +20,7 @@ These codes were developed during my Thesis work where I perfmored a good number
     
 The basemap package is deprecated and a complete transition to cartopy is needed in the future. However, basemap holds some features still not present in cartopy. So for now I've decided to not change to cartopy. Unfortunately, for the former reason you have to use a python version=2.6. I suggest to create a new conda environment with this python version: `conda create -n envname python=2.6`, then activate the environment `conda activate envname`.
 
-**N.B. In ubuntu I found very useful to run directly `jupyter notebook` from the desired path**
+**NOTE 3: In ubuntu I found very useful to run directly `jupyter notebook` from the desired path**
 
 ## DIRECTORIES ##
 ### PlaSim simulations ##
@@ -36,7 +38,7 @@ Before to start you have to run the [cdo_start_2.0.sh](CDO_pre_analysis/cdo_star
 -step=years of average
 -start=start time for the average
 
-**N.B: the day start and day stop are not used in this file actually**
+**NOTE 4: the day start and day stop are not used in this file actually**
 Then you may run the [cdo_start_2.0.sh](CDO_pre_analysis/cdo_start_2.0.sh) from bash `./cdo_start_2.0.sh`
 
 ###  File analysis ###
@@ -50,7 +52,7 @@ The first one is the files that you have to open with jupyter. The second one is
 - file_graph=folderPath+"/output/analisi/grafici/"
 These file works for both the two types of resolutions (T21/T42)
 
-**N.B: You have to create a `grafici` directory in the [analisi](NSM2_100_70_30_ML_SI_T21/output/analisi) one of the PlaSim simulation. In this directory the plots will be saved!**
+**NOTE 5: You have to create a `grafici` directory in the [analisi](NSM2_100_70_30_ML_SI_T21/output/analisi) one of the PlaSim simulation. In this directory the plots will be saved!**
 
 ### File comparison ###
 This section need to perform some plots that compare two or more simulations.
