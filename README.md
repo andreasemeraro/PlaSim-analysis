@@ -18,5 +18,12 @@ These codes were developed during my Thesis work where I perfmored a good number
 The basemap package is deprecated and a complete transition to cartopy is needed in the future. However, basemap holds some features still not present in cartopy. So for now I've decided to not change to cartopy. Unfortunately, for the former reason you have to use a python version=2.6. I suggest to create a new conda environment with this python version: `conda create -n envname python=2.6`, then activate the environment `conda activate envname`.
 **N.B. In ubuntu I found very useful to run directly `jupyter notebook` from the desired path**
 
+## Directories ##
+### PlaSim simulations ##
+In the repository you can find two direcotries called:
+- NSM2_100_70_30_ML_SI_T21
+- WGAO2_100_70_30_ML_SI_T21
+The name structure is composed as follows: simulation_name (the same name that you have to put in the most_plasim_run and that appear in the uotput files in [output](github/NSM2_100_70_30_ML_SI_T21/output/)
+
 
 
