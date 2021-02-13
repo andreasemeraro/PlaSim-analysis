@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-name_dir=../T42NG1_100_70_30_ML_SI_T42
-name_sim="T42NG1"
+name_dir=../NSM2_100_70_30_ML_SI_T21
+name_sim="NSM2"
 year=100
 step=30
 start=70
