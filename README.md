@@ -17,7 +17,7 @@ These codes were developed during my Thesis work where I performed some simulati
     `conda install -c anaconda basemap`;
     - cartopy:
     `conda install -c conda-forge cartopy` or see [here](https://anaconda.org/conda-forge/cartopy);
-    -xarray:
+    - xarray:
     `conda install -c anaconda xarray`
     
 The basemap package is deprecated and in future a complete transition to cartopy is needed. However, basemap holds some features which are still not present in cartopy. As a consequence, I avoided an update regarding cartopy.
