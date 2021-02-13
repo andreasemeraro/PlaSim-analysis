@@ -8,7 +8,7 @@ These codes were developed during my Thesis work where I performed some simulati
 ## PRE-REQUISITES ##
 1. Download cdo `sudo apt install cdo`;
 2. Install netcdf `sudo apt-get install libnetcdf-dev libnetcdff-dev`;
-3. Install Anaconda distribution with Jupyter Notebook (except for the file in CDO and application) with the following important packages:
+3. Install [Anaconda distribution](https://noviello.it/come-installare-anaconda-su-ubuntu-20-04-lts/) with Jupyter Notebook (except for the file in CDO and application) with the following important packages:
    - netcdf:
     `conda install -c anaconda netcdf4`;
     - cdo:
