@@ -6,7 +6,7 @@ These codes were developed during my Thesis work where I performed some simulati
 **NOTE 2: Some of the linked files can be too heavy to be opened on github. Therefore, you have to donwnload them and open them with jupyter**
 
 ## PRE-REQUISITES ##
-1. Download cdo `sudo apt update && sudo apt install cdo`;
+1. Download cdo `sudo apt-get update && sudo apt install cdo`;
 2. Install netcdf `sudo apt-get install libnetcdf-dev libnetcdff-dev`;
 3. Install [Anaconda distribution](https://noviello.it/come-installare-anaconda-su-ubuntu-20-04-lts/) with Jupyter Notebook (except for the file in CDO and application) with the following important packages:
    - netcdf:
@@ -16,9 +16,11 @@ These codes were developed during my Thesis work where I performed some simulati
     - basemap:
     `conda install -c anaconda basemap`;
     - cartopy:
-    `conda install -c conda-forge cartopy` or see [here](https://anaconda.org/conda-forge/cartopy).
+    `conda install -c conda-forge cartopy` or see [here](https://anaconda.org/conda-forge/cartopy);
+    -xarray:
+    `conda install -c anaconda xarray`
     
-The basemap package is deprecated and in future a complete transition to cartopy is needed. However, basemap holds some features which are still not present in cartopy. As a consequence, I avoided an update regarding cartopy. Unfortunately, because of this choice, you have to use a python version=2.6. I suggest to create a new conda environment with this python version: `conda create -n envname python=2.6`, then activate the environment `conda activate envname`.
+The basemap package is deprecated and in future a complete transition to cartopy is needed. However, basemap holds some features which are still not present in cartopy. As a consequence, I avoided an update regarding cartopy.
 
 **NOTE 3: In ubuntu I found very useful to run directly `jupyter notebook` from the desired path**
 
