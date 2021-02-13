@@ -6,7 +6,7 @@ These codes were developed during my Thesis work where I performed some simulati
 **NOTE 2: Some of the linked files can be too heavy to be opened on github. Therefore, you have to donwnload them and open them with jupyter**
 
 ## PRE-REQUISITES ##
-1. Download cdo `sudo apt install cdo`;
+1. Download cdo `sudo apt update && sudo apt install cdo`;
 2. Install netcdf `sudo apt-get install libnetcdf-dev libnetcdff-dev`;
 3. Install [Anaconda distribution](https://noviello.it/come-installare-anaconda-su-ubuntu-20-04-lts/) with Jupyter Notebook (except for the file in CDO and application) with the following important packages:
    - netcdf:
