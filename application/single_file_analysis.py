@@ -84,7 +84,7 @@ r_eq=6371000
 #stating the graphical interface
 gui = Tk()
 gui.geometry("450x200")
-gui.title("Andrea")
+gui.title("PlaSim-analysis")
 
 #function
 
